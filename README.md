@@ -71,9 +71,13 @@
 ---
 ### model weights
 [Final model weights](https://www.kaggle.com/models/akhilblanc/model-weights/)
+
 epochs specific weights are as follows
+
 [Common task](https://www.kaggle.com/models/akhilblanc/lens_classifcation/)
 [pretrained_mae](https://www.kaggle.com/models/akhilblanc/pretrained-mae/)
+
+
 ---
 ### Results
 #### Common Task
