@@ -69,6 +69,12 @@
     -   Final convolution layer to **match the HR output size (150x150)** which also works as smoothing.
 
 ---
+### model weights
+[Final model weights](https://www.kaggle.com/models/akhilblanc/model-weights/)
+epochs specific weights are as follows
+[Common task](https://www.kaggle.com/models/akhilblanc/lens_classifcation/)
+[pretrained_mae](https://www.kaggle.com/models/akhilblanc/pretrained-mae/)
+---
 ### Results
 #### Common Task
 - Accuracy: 95.92%
@@ -85,8 +91,4 @@ Accuracy: 81.64%
 
 #### Specific Task VI.B
 Test PSNR: 38.631875 , SSIM: 0.95930625, MSE: 0.00013130609884337034
-
-for more information:
-- [common task](common_task/results.md)
-- [specific task 6](specific_task6/results.md)
 
