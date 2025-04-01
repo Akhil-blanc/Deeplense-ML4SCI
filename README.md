@@ -46,14 +46,13 @@
 #### **2.2 Fine-tuning Phase (Supervised Learning)**
 
 -   **Model:**
-    
-    -   Uses the **pre-trained MAE encoder** with frozen or partially trainable weights.
         
     -   Adds a **classification head** consisting of:
         
         -   Global average pooling over patch embeddings.
             
         -   Fully connected layers: **512 → 256 → 3 (softmax)**
+    -   finetunes the **pre-trained MAE encoder with classification head** with frozen weights for 10 epochs amd them unfreezes whole model to train
 ----
 #### Specific Task VI.B
 
